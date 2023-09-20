@@ -16,7 +16,9 @@ h2 {
 }
 body {
   font-family: "Shadows Into Light", cursive;
-  background-color: #f9f7fe;
+  background-image: url("https://www.brookings.edu/wp-content/uploads/2021/01/shutterstock_1558058690_small.jpg?resize=2048,1318");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 select {
@@ -50,4 +52,5 @@ footer {
   text-align: center;
   font-size: 14px;
   opacity: 0.7;
+  color: #ff6f3c;
 }

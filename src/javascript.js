@@ -46,7 +46,7 @@ function updateCity(event) {
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `<div class="city">
           <div>
-            <h2>${cityTimeZone}</h2>
+            <h2>${cityName}</h2>
             <div class="date">${cityTime.format("MMMM	Do YYYY")}</div>
           </div>
           <div class="time">${cityTime.format(
@@ -57,6 +57,7 @@ function updateCity(event) {
 
 setInterval(updateLosAngelesTime, 1000);
 setInterval(updateParisTime, 1000);
+setInterval(updateHonoluluTime, 1000);
 
 let citySelectElement = document.querySelector("#city");
 citySelectElement.addEventListener("change", updateCity);
